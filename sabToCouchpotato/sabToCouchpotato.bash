@@ -2,6 +2,13 @@
 
 HOST="localhost"
 PORT="5050"
-API_KEY="YOUR_KEY_HERE"
+API_KEY="4ff30a900c834a55937073fa982d232b"
+SSL=false
 
-curl "${HOST}:${PORT}/api/${API_KEY}/renamer.scan"
+if [ "$SSL" = true ] ; then
+  PROTOCOL="https"
+else
+  PROTOCOL="http"
+fi
+
+curl "${PROTOCOL}://${HOST}:${PORT}/api/${API_KEY}/renamer.scan"
