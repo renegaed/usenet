@@ -1,6 +1,7 @@
 #sabToCouchPotato
 ##Description
-Compatible with both Sickbeard and Sickrage. Have you already got sabToSickbeard working? Want the same integration for SABnzbd+ and CouchPotato as quickly as possible? This is perfect for you.
+Compatible with both Sickbeard and Sickrage.  
+I do not like the CouchPotato renamer's behaviour of watching your download directory every x minutes. I prefer the renamer to run only when a movie is ready for post-processing, thereby reducing unnecessary disk reads. That's what this does. If you already have sabToSickbeard working then you can set up sabToCouchPotato in minutes.
 
 This script notifies CouchPotato after SABnzbd+ finishes downloading a movie. Very minimalistic. Does not handle failed downloads. This is designed to get the job done quick and dirty without any bells and whistles. If you are looking for a more robust solution check out [nzbToMedia.](https://github.com/clinton-hall/nzbToMedia) 
 
