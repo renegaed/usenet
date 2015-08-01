@@ -2,7 +2,7 @@
 
 HOST="localhost"
 PORT="5050"
-API_KEY="4ff30a900c834a55937073fa982d232b"
+API_KEY="YOUR_COUCHPOTATO_API_KEY"
 SSL=false
 
 if [ "$SSL" = true ] ; then
