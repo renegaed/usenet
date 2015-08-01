@@ -21,7 +21,7 @@ Check your CouchPotato logs
 
 #Configure with SABnzbd+
 Here I am going to assume you already have sabToSickbeard set up.  
-This means under Config -> Folders -> Post-Processing Scripts Folder -> *points to Sickbeard/Sickrage **autoProcessTV** Folder*
+This means under Config -> Folders -> Post-Processing Scripts Folder -> *points to Sickbeard/Sickrage autoProcessTV Folder*
 
 ##Add sabToCouchpotato to Sickbeard's autoProcessTV
 	sudo ln -s /path/to/sabToCouchpotato.bash /path/to/sickbeard/autoProcessTV
