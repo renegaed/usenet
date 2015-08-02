@@ -33,3 +33,9 @@ In SABnzbd+ go to Config -> Categories -> Add the following entry:
 **Processing:** +Delete  
 **Script:** sabToCouchpotato.bash  
 **Folder/Path:** *your_destination_path*
+
+#Turn CouchPotato Continuous Folder-Scanning Off
+In CouchPotato go to Settings -> Renamer -> Rename downloaded movies
+
+Set Run Every -> `0` (disabled)
+Set Force Every -> `0` (disabled)
