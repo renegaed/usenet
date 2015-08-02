@@ -1,4 +1,4 @@
-#sabToCouchPotato
+#sabToCouchpotato
 ##Description
 Compatible with both Sickbeard and Sickrage.  
 I do not like the CouchPotato renamer's behaviour of watching your download directory every x minutes. I prefer the renamer to run only when a movie is ready for post-processing, thereby reducing unnecessary disk reads. This script does just that. Also this script eliminates the delay between a movie downloading in SABnzbd+ and Couchpotato post-processing. If you already have sabToSickbeard working then you can set up sabToCouchPotato in minutes.
@@ -39,3 +39,6 @@ In CouchPotato go to Settings -> Renamer -> Rename downloaded movies
 
 Set Run Every -> `0` (disabled)  
 Set Force Every -> `0` (disabled)
+
+#Additional Notes
+Occasionally when Sickbeard/Sickrage is updated the symlinking to sabToCouchpotato.bash is removed and you will need to manually symlink it again. This is rare but worth noting.
