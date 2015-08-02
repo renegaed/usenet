@@ -40,7 +40,7 @@ Check your CouchPotato logs
 Config -> Folders -> Post-Processing Scripts Folder -> `/home/<user>/bin/scripts`
 
 **NOTE:** If you already have sabToSickbeard set up your scripts folder would be pointing to `path/to/sickbeard/autoProcessTV`
-The reason we changing the scripts folder to `/home/<user>/bin/scripts` folder is so that Sickbeard/Sickrage can update without symlinks breaking.
+The reason we changing the scripts folder to `/home/<user>/bin/scripts` is so that Sickbeard/Sickrage can update without symlinks breaking.
 
 ###Update your categories
 Config -> Categories -> Add the following entry:
