@@ -54,5 +54,5 @@ Config -> Categories -> Add the following entry:
 #Turn Off CouchPotato Continuous Folder-Scanning
 In CouchPotato go to Settings -> Renamer -> Rename downloaded movies
 
-Set Run Every -> `0` (disabled)  
-Set Force Every -> `0` (disabled)
+Set `Run Every` -> `0` (disabled)  
+Set `Force Every` -> `0` (disabled)
