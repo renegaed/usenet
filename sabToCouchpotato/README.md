@@ -51,7 +51,7 @@ Config -> Categories -> Add the following entry:
 **Script:** sabToCouchpotato.bash  
 **Folder/Path:** *your_destination_path*
 
-#Turn CouchPotato Continuous Folder-Scanning Off
+#Turn Off CouchPotato Continuous Folder-Scanning
 In CouchPotato go to Settings -> Renamer -> Rename downloaded movies
 
 Set Run Every -> `0` (disabled)  
