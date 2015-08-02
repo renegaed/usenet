@@ -41,4 +41,4 @@ Set Run Every -> `0` (disabled)
 Set Force Every -> `0` (disabled)
 
 #Additional Notes
-Occasionally when Sickbeard/Sickrage is updated the symlinking to sabToCouchpotato.bash is removed and you will need to manually symlink it again. This is rare but worth noting.
+If you update Sickbeard/Sickrage the symlinking to sabToCouchpotato.bash is removed and you will need to manually symlink it again.
